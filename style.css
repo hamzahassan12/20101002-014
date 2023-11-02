@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+header {
+    background-color: #e2a542;
+    color: #000000; 
+    
+}
+.student-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .student-image img {
+    max-width: 200px;
+    margin-left: 600px;
+    border-radius: 50px;
+    float: right;
+  }
+  
+  .student-details {
+    padding-right: 450px;
+  }
+  
+  .student-name {
+    font-size: 50px;
+    font-weight: bold;
+    
+  }
+  
+  .student-roll {
+    font-size: 35px;
+ 
+  }
+  
+header h1 {
+    font-size: 50px;
+    padding-left: 150px;
+}
+
+header p {
+    font-size: 50px;
+    padding-left: 150px;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    
+    border-style: solid;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+ol {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+li {
+    margin: 5px ;
+}
+
+
+section p {
+    font-size: 18px;
+    line-height: 1.4;
+    
+}
+
